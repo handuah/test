@@ -1,0 +1,37 @@
+body{
+    background-color: #16222A;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-link{
+    color: white;
+}
+
+#header{
+    color: white;
+    margin-top: 15%;
+}
+
+#mobileimage{
+    background: url(../img/mobile.png);
+    padding-top: 50%;
+    margin-top: -10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.btn-pink{
+    background-color: rgb(229, 25, 89);
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-pink:hover{
+    background-color: rgb(175, 21, 69);
+    color: white;
+}
+.btn-primary{
+    border-radius: 50px;
+}
